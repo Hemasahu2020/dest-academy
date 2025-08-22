@@ -1,0 +1,315 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./src/app/styles/LandingPage/whatyouget.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.dest-whatyouget {
+  font-family: "Segoe UI", sans-serif;
+  padding: 0 2rem;
+  background: #f8fafc;
+  text-align: center;
+}
+.dest-whatyouget__title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1e293b;
+  margin-bottom: 3rem;
+}
+.dest-whatyouget__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-gap: 2rem;
+  gap: 2rem;
+  display: flex;
+  flex-direction: row;
+  max-width: 1360px;
+  margin: auto;
+}
+.dest-whatyouget__card {
+  background: #fff;
+  padding: 2rem 0.5rem;
+  border-radius: 1.2rem;
+  width: 12rem;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: left;
+}
+.dest-whatyouget__card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+.dest-whatyouget__icon {
+  color: #2563eb;
+  margin-bottom: 1rem;
+}
+.dest-whatyouget__heading {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #1e293b;
+  margin-bottom: 0.6rem;
+}
+.dest-whatyouget__desc {
+  font-size: 1rem;
+  color: #475569;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./src/app/styles/LandingPage/aboutus.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.aboutus-section {
+  font-family: "Segoe UI", sans-serif;
+  padding: 4rem 2rem;
+  background: #f9fafb;
+}
+.aboutus-section .Above-Section-About-container {
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+.aboutus-section .Above-Section-About-container .section-title {
+  text-align: center;
+}
+.aboutus-section .Above-Section-About {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.aboutus-section .aboutus-image {
+  flex: 1 1;
+  max-width: 50%;
+  text-align: center;
+}
+.aboutus-section .aboutus-image img {
+  max-width: 100%;
+  height: auto;
+}
+.aboutus-section .aboutus-image .inline-logo {
+  width: 20rem;
+  height: 20rem;
+}
+.aboutus-section .About-right-content {
+  flex: 1 1;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 2rem 2rem 2rem;
+}
+.aboutus-section .About-right-content .section-title {
+  text-align: left;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #1e293b;
+}
+.aboutus-section .About-right-content .aboutus-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2563eb;
+  margin-bottom: 1rem;
+}
+.aboutus-section .About-right-content p {
+  font-size: 1rem;
+  color: #475569;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+.aboutus-section .aboutus-container {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+.aboutus-section .aboutus-container .aboutus-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  gap: 2rem;
+}
+@media (max-width: 900px) {
+  .aboutus-section .aboutus-container .aboutus-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .aboutus-section .aboutus-container .aboutus-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.aboutus-section .aboutus-container .aboutus-card {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: center;
+}
+.aboutus-section .aboutus-container .aboutus-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+.aboutus-section .aboutus-container .aboutus-card .icon {
+  color: #2563eb;
+  /* blue highlight */
+  margin-bottom: 1rem;
+}
+.aboutus-section .aboutus-container .aboutus-card h4 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+  color: #1e293b;
+}
+.aboutus-section .aboutus-container .aboutus-card p,
+.aboutus-section .aboutus-container .aboutus-card ul {
+  font-size: 1rem;
+  color: #475569;
+  line-height: 1.5;
+}
+.aboutus-section .aboutus-container .aboutus-card ul {
+  text-align: left;
+  margin: 0.8rem 0 0 1.2rem;
+  list-style: disc;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./src/app/styles/LandingPage/whydest.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+.Why-Dest-Section-Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background: #ffffff;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  max-width: 1100px;
+  margin: 3rem auto;
+  /* 📱 Mobile Responsive */
+}
+.Why-Dest-Section-Container .why-dest-image {
+  flex: 1 1;
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Why-Dest-Section-Container .why-dest-image img {
+  width: 28rem;
+  height: auto;
+}
+.Why-Dest-Section-Container div {
+  flex: 1 1;
+  max-width: 50%;
+}
+.Why-Dest-Section-Container div h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+.Why-Dest-Section-Container div ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  color: #475569;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.Why-Dest-Section-Container div ul li {
+  margin-bottom: 0.6rem;
+}
+@media (max-width: 768px) {
+  .Why-Dest-Section-Container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .Why-Dest-Section-Container .why-dest-image,
+  .Why-Dest-Section-Container div {
+    max-width: 100%;
+  }
+  .Why-Dest-Section-Container ul {
+    list-style: none;
+    padding: 0;
+  }
+  .Why-Dest-Section-Container ul li::before {
+    content: "✔️ ";
+    color: #2563eb;
+  }
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./src/app/styles/landingpage.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.landing {
+  font-family: "Segoe UI", sans-serif;
+  color: #1e293b;
+}
+.landing .hero {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url("https://images.unsplash.com/photo-1584697964380-75e9d3c8b43e") no-repeat center/cover;
+  color: rgb(16, 0, 243);
+  padding: 3rem;
+}
+.landing .hero h1 {
+  font-size: 5.2rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+.landing .hero .inline-logo {
+  width: 20rem;
+  height: 20rem;
+}
+.landing .hero p {
+  font-size: 1.5rem;
+  margin-top: -3rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+.landing .content {
+  max-width: 1100px;
+  margin: auto;
+  padding: 3rem 1rem;
+}
+.landing .content .section-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  grid-gap: 2rem;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  background: #f9fafb;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+.landing .content .section-grid img {
+  max-width: 100%;
+  border-radius: 1rem;
+}
+.landing .content .section-grid h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.8rem;
+  color: #2563eb;
+  margin-bottom: 1rem;
+}
+.landing .content .section-grid p,
+.landing .content .section-grid ul {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+.landing .content .section-grid ul {
+  list-style: disc;
+  margin-left: 1.2rem;
+}
+.landing .content .section-grid.reverse {
+  grid-template-columns: 1fr 1fr;
+  direction: rtl;
+}
+.landing .content .section-grid.reverse div {
+  direction: ltr;
+}

@@ -1,0 +1,87 @@
+.landing {
+  font-family: "Segoe UI", sans-serif;
+  color: #1e293b;
+
+  .hero {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background: url("https://images.unsplash.com/photo-1584697964380-75e9d3c8b43e") no-repeat center/cover;
+    color: rgb(16, 0, 243);
+    padding: 3rem;
+
+    h1 {
+      font-size: 5.2rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+    }
+
+    .inline-logo {
+      width: 20rem;
+      height: 20rem;
+    }
+
+
+    p {
+      font-size: 1.5rem;
+      margin-top: -3rem;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+    }
+  }
+
+  .content {
+    max-width: 1100px;
+    margin: auto;
+    padding: 3rem 1rem;
+
+    .section-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      gap: 2rem;
+      margin-bottom: 3rem;
+      padding: 2rem;
+      border-radius: 1rem;
+      background: #f9fafb;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+
+      img {
+        max-width: 100%;
+        border-radius: 1rem;
+      }
+
+      h2 {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 1.8rem;
+        color: #2563eb;
+        margin-bottom: 1rem;
+      }
+
+      p,
+      ul {
+        font-size: 1.1rem;
+        line-height: 1.6;
+      }
+
+      ul {
+        list-style: disc;
+        margin-left: 1.2rem;
+      }
+
+      &.reverse {
+        grid-template-columns: 1fr 1fr;
+        direction: rtl;
+
+        div {
+          direction: ltr;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,125 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./src/app/styles/footer.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.footer {
+  background: linear-gradient(135deg, #4f46e5, #3b82f6);
+  color: #ccc;
+  padding: 3rem 2rem;
+  font-family: Arial, sans-serif;
+}
+.footer .footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.footer .footer-top .footer-about {
+  flex: 1 1;
+  min-width: 250px;
+}
+.footer .footer-top .footer-about h2 {
+  color: white;
+  margin-bottom: 1rem;
+}
+.footer .footer-top .footer-about p {
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+.footer .footer-top .footer-about .footer-apps {
+  display: flex;
+  gap: 1rem;
+}
+.footer .footer-top .footer-about .footer-apps img {
+  height: 40px;
+  cursor: pointer;
+}
+.footer .footer-top .footer-links {
+  flex: 2 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 2rem;
+  gap: 2rem;
+}
+.footer .footer-top .footer-links h4 {
+  color: white;
+  margin-bottom: 1rem;
+}
+.footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+.footer .footer-top .footer-links ul li {
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.footer .footer-top .footer-links ul li:hover {
+  color: #fbbf24;
+}
+.footer .footer-bottom {
+  margin-top: 2rem;
+  border-top: 1px solid #333;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+}
+.footer .footer-bottom p {
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./src/app/styles/navbar.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, #4f46e5, #3b82f6);
+  color: white;
+  height: 1rem;
+  top: 0;
+}
+.navbar .logo {
+  display: flex;
+  flex-direction: row;
+}
+.navbar .logo .nav-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+.navbar .logo .inline-logo {
+  font-weight: bold;
+}
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+.navbar .nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+.navbar .nav-links li a:hover {
+  color: #fbbf24;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/globals.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+
+
