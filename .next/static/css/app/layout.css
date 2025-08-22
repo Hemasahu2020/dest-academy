@@ -17,6 +17,13 @@
   flex: 1 1;
   min-width: 250px;
 }
+.footer .footer-top .footer-about .footer-about-title-logo {
+  display: flex;
+  flex-direction: row;
+}
+.footer .footer-top .footer-about .footer-about-title-logo .inline-logo {
+  font-weight: bold;
+}
 .footer .footer-top .footer-about h2 {
   color: white;
   margin-bottom: 1rem;

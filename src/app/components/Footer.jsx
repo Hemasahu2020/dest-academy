@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import "../styles/footer.scss";
+import Image from "next/image";
 import { FaPhoneAlt } from "react-icons/fa";
 
 export default function Footer() {
@@ -8,7 +9,17 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-top">
         <div className="footer-about">
-          <h2>DEST Academy 🚀</h2>
+          <div className="footer-about-title-logo">
+          <h2>DEST Academy </h2>
+             <Image
+                      src="/images/dest_translogo.png"
+                      alt="DEST Logo"
+                      width={80}
+                      height={80}
+                      className="inline-logo"
+                    />
+                    </div>
+          
           <p>
             DEST Academy is democratizing education, making it accessible to all. 
             Join the revolution, learn and grow with us.
