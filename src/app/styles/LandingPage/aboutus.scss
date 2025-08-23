@@ -1,134 +1,122 @@
 .aboutus-section {
-    font-family: "Segoe UI", sans-serif;
-    padding: 4rem 2rem;
-    background: #f9fafb;
+  font-family: "Segoe UI", sans-serif;
+  padding: 4rem 2rem;
+  background: #f9fafb;
 
-    .Above-Section-About-container {
-        align-items: center;
-        justify-content: center;
-        background: #ffffff;
-        border-radius: 1rem;
-        padding: 1rem;
-        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  .Above-Section-About-container {
+   max-width: 90%; // 👈 Reduce width
+  margin: 0 auto;  
+    background: #ffffff;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    
+    .section-title {
+      text-align: center;
+    }
+  }
 
-        .section-title {
-            text-align: center;
-        }
+  .Above-Section-About {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
 
+  .aboutus-image {
+    flex: 1;
+    max-width: 400px;
+    text-align: center;
+
+    .inline-logo {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .About-right-content {
+    flex: 1;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+
+    .section-title {
+      text-align: left;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #1e293b;
     }
 
-    .Above-Section-About {
-        display: flex;
-        flex-direction: row;
-        gap: 2rem;
+    .aboutus-heading {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #2563eb;
+      margin-bottom: 1rem;
     }
 
-    .aboutus-image {
-        flex: 1;
-        max-width: 50%;
-        text-align: center;
+    p {
+      font-size: 1rem;
+      color: #475569;
+      margin-bottom: 1rem;
+      line-height: 1.6;
+    }
+  }
 
-        img {
-            max-width: 100%;
-            height: auto;
-            // border-radius: 1rem;
-        }
+  .aboutus-container {
+    max-width: 90%;
+    margin: 3rem auto;
+    padding: 0 1rem;
 
-        .inline-logo {
-            width: 20rem;
-            height: 20rem;
-        }
+    .aboutus-grid {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 3rem;
     }
 
-    .About-right-content {
-        flex: 1;
-        max-width: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 2rem 2rem 2rem 2rem;
+    .aboutus-card {
+      width: 340px;
+      background: #ffffff;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      text-align: center;
+      
 
+      &:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+      }
 
-        .section-title {
-            text-align: left;
-            font-size: 2rem;
-            margin-bottom: 1rem;
-            color: #1e293b;
-        }
+      .icon {
+        color: #2563eb;
+        margin-bottom: 1rem;
+      }
 
-        .aboutus-heading {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: #2563eb;
-            margin-bottom: 1rem;
-        }
+      h4 {
+        font-size: 1.4rem;
+        font-weight: bold;
+        margin-bottom: 0.8rem;
+        color: #1e293b;
+      }
 
-        p {
-            font-size: 1rem;
-            color: #475569;
-            margin-bottom: 1rem;
-            line-height: 1.6;
-        }
+      p,
+      ul {
+        font-size: 1rem;
+        color: #475569;
+        line-height: 1.5;
+      }
+
+      ul {
+        text-align: left;
+        margin: 0.8rem 0 0 1.2rem;
+        list-style: disc;
+      }
     }
-
-    .aboutus-container {
-        max-width: 1200px;
-        margin: 3rem auto;
-        padding: 0 1rem;
-
-        .aboutus-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);          
-            gap: 2rem;           
-
-            @media (max-width: 900px) {
-                grid-template-columns: repeat(2, 1fr);               
-            }
-
-            @media (max-width: 600px) {
-                grid-template-columns: 1fr;          
-            }
-        }
-
-        .aboutus-card {
-            background: #ffffff;
-            padding: 2rem;
-            border-radius: 1rem;
-            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
-            text-align: center;
-
-            &:hover {
-                transform: translateY(-6px);
-                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
-            }
-
-            .icon {
-                color: #2563eb;
-                /* blue highlight */
-                margin-bottom: 1rem;
-            }
-
-            h4 {
-                font-size: 1.4rem;
-                font-weight: bold;
-                margin-bottom: 0.8rem;
-                color: #1e293b;
-            }
-
-            p,
-            ul {
-                font-size: 1rem;
-                color: #475569;
-                line-height: 1.5;
-            }
-
-            ul {
-                text-align: left;
-                margin: 0.8rem 0 0 1.2rem;
-                list-style: disc;
-            }
-        }
-    }
-
+  }
 }

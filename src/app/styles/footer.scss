@@ -1,5 +1,5 @@
 .footer {
-   background: linear-gradient(135deg, #4f46e5, #3b82f6);   
+  background: linear-gradient(135deg, #4f46e5, #3b82f6);
   color: #ccc;
   padding: 3rem 2rem;
   font-family: Arial, sans-serif;
@@ -13,6 +13,16 @@
     .footer-about {
       flex: 1;
       min-width: 250px;
+
+      .footer-about-title-logo {
+        display: flex;
+        flex-direction: row;
+
+        .inline-logo {
+          font-weight: bold;
+
+        }
+      }
 
       h2 {
         color: white;
