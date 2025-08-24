@@ -11,12 +11,11 @@
     margin-bottom: 3rem;
   }
 
+  /* Default: Grid layout (desktop + tablet) */
   &__grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
     gap: 2rem;
-    display: flex;
-    flex-direction: row;
     max-width: 1360px;
     margin: auto;
   }
@@ -25,10 +24,10 @@
     background: #fff;
     padding: 2rem 0.5rem;
     border-radius: 1.2rem;
-    width: 12rem;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     text-align: left;
+    flex: 0 0 80%; /* For mobile carousel (width ~80% of screen) */
 
     &:hover {
       transform: translateY(-6px);
@@ -55,14 +54,22 @@
     line-height: 1.5;
   }
 
-//   &__link {
-//     font-size: 0.95rem;
-//     color: #2563eb;
-//     font-weight: 500;
-//     text-decoration: none;
+  /* 📱 Mobile responsive: switch to horizontal scroll */
+  @media (max-width: 768px) {
+    &__grid {
+      display: flex;
+      overflow-x: auto;
+      gap: 1rem;
+      padding-bottom: 1rem;
 
-//     &:hover {
-//       text-decoration: underline;
-//     }
-//   }
+      /* Smooth scroll */
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    &__card {
+      flex: 0 0 80%; /* card takes ~80% of width */
+      scroll-snap-align: start;
+    }
+  }
 }

@@ -609,11 +609,14 @@ button.swiper-pagination-bullet {
 /*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./src/app/styles/LandingPage/whatyouget.scss ***!
   \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
 .dest-whatyouget {
   font-family: "Segoe UI", sans-serif;
   padding: 0 2rem;
   background: #f8fafc;
   text-align: center;
+  /* Default: Grid layout (desktop + tablet) */
+  /* 📱 Mobile responsive: switch to horizontal scroll */
 }
 .dest-whatyouget__title {
   font-size: 2.5rem;
@@ -626,8 +629,6 @@ button.swiper-pagination-bullet {
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   grid-gap: 2rem;
   gap: 2rem;
-  display: flex;
-  flex-direction: row;
   max-width: 1360px;
   margin: auto;
 }
@@ -635,10 +636,10 @@ button.swiper-pagination-bullet {
   background: #fff;
   padding: 2rem 0.5rem;
   border-radius: 1.2rem;
-  width: 12rem;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   text-align: left;
+  flex: 0 0 80%; /* For mobile carousel (width ~80% of screen) */
 }
 .dest-whatyouget__card:hover {
   transform: translateY(-6px);
@@ -659,6 +660,21 @@ button.swiper-pagination-bullet {
   color: #475569;
   margin-bottom: 1rem;
   line-height: 1.5;
+}
+@media (max-width: 768px) {
+  .dest-whatyouget__grid {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    /* Smooth scroll */
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+  .dest-whatyouget__card {
+    flex: 0 0 80%; /* card takes ~80% of width */
+    scroll-snap-align: start;
+  }
 }
 /*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./src/app/styles/LandingPage/aboutus.scss ***!
