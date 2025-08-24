@@ -3,6 +3,7 @@ import Image from "next/image";
 import WhatYouGet from "./LandingPage/WhatYouGet";
 import Aboutus from "./LandingPage/Aboutus";
 import WhyDest from "./LandingPage/WhyDest";
+import MentorSection from "./LandingPage/MentorSection"
 import "../styles/landingpage.scss";
 
 export default function LandingPage() {
@@ -35,6 +36,7 @@ export default function LandingPage() {
       <div><Aboutus /></div>
       <div><WhyDest /></div>
       <div className="content"><WhatYouGet /></div>
+      <div><MentorSection /></div>
     </section>
   );
 }
