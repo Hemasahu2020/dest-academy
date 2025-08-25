@@ -21,13 +21,13 @@ export default function AboutUs() {
                     <div className="About-right-content">
                         <h3 className="aboutus-heading">About Us</h3>
                         <p>
-                            <strong>DEST Academy</strong> (Dream Education Skill & Training) is
-                            a registered trust dedicated to empowering youth and society through
-                            education, skill development, and employment-oriented training.
+                            <strong>DEST Academy</strong> (Dream Education Skill & Training Pvt. Ltd.) 
+                            is a registered private limited company committed to delivering 
+                            impactful education, practical skill training, and employment-ready programs 
+                            to youth across India.
                         </p>
                         <p>
-                            We strongly believe that <em>“Skill is the real foundation of Nation
-                                Building.”</em>
+                            We believe that <em>“Skill is the real foundation of nation building.”</em>
                         </p>
                     </div>
                 </div>
@@ -38,8 +38,8 @@ export default function AboutUs() {
                         <Target size={32} className="icon" />
                         <h4>Our Vision</h4>
                         <p>
-                            To provide quality education, practical skills, and
-                            self-reliance opportunities for every youth.
+                            To empower the next generation through accessible, industry-relevant 
+                            education and skills that lead to sustainable careers and self-reliance.
                         </p>
                     </div>
 
@@ -47,9 +47,9 @@ export default function AboutUs() {
                         <BookOpen size={32} className="icon" />
                         <h4>Our Mission</h4>
                         <p>
-                            Deliver industrial skill training (ITI Fitter, technical skills,
-                            vocational programs), online coaching & workshops for
-                            competitive exams and career readiness.
+                            To provide technical training (e.g., ITI Fitter), vocational education, 
+                            and online coaching for competitive exams—delivered through modern, 
+                            blended learning models that prioritize job readiness.
                         </p>
                     </div>
 
@@ -57,15 +57,14 @@ export default function AboutUs() {
                         <Users size={32} className="icon" />
                         <h4>Our Focus Areas</h4>
                         <ul>
-                            <li>Skill Development – Industrial & Technical Training</li>
-                            <li>Education Support – Online & Offline Programs</li>
-                            <li>Youth Empowerment – Career Guidance & Personality Growth</li>
-                            <li>Community Development – Awareness Drives & Workshops</li>
+                            <li>Skill Development – Industrial, Technical & Soft Skills</li>
+                            <li>Education Enablement – Online & Offline Learning Solutions</li>
+                            <li>Youth Empowerment – Career Guidance & Personality Development</li>
+                            <li>Community Impact – Awareness Campaigns & Public Workshops</li>
                         </ul>
                     </div>
                 </div>
             </div>
-
         </section>
     );
 }

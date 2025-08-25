@@ -25,7 +25,7 @@ export default function LandingPage() {
         <h1 className="logo-heading">Welcome to DEST Academy</h1>
         <p>Learn, Explore, and Grow with us.</p>
         <Image
-          src="/images/dest_translogo.png"
+          src="/images/dest_translogoCrop.png"
           alt="DEST Logo"
           width={80}
           height={80}

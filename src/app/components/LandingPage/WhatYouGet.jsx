@@ -1,44 +1,55 @@
 import React from "react";
-import { Briefcase, FileText, BookOpen, RefreshCcw, CheckSquare } from "lucide-react";
+import {
+  Briefcase,
+  FileText,
+  BookOpen,
+  RefreshCcw,
+  CheckSquare,
+} from "lucide-react";
 import "../../styles/LandingPage/whatyouget.scss";
 
 export default function WhatYouGet() {
   const benefits = [
     {
       icon: <Briefcase size={32} />,
-      title: "Job Assistance",
-      desc: "Access to 1.6L+ IT & non-IT jobs from 4000+ corporates",
+      title: "Job Placement Support",
+      desc:
+        "Gain access to 1.6L+ job opportunities across 4000+ top IT and non-IT companies.",
       link: null,
     },
     {
       icon: <FileText size={32} />,
-      title: "Scorecard",
-      desc: "Valid for 2 years with detailed performance insights",
-    //   link: { text: "View Sample Scorecard", url: "#" },
+      title: "Performance Scorecard",
+      desc:
+        "A 2-year valid scorecard offering deep insights into your strengths and improvement areas.",
+      // link: { text: "View Sample Scorecard", url: "#" },
     },
     {
       icon: <BookOpen size={32} />,
-      title: "Free Learning Resources",
-      desc: "Exclusive online courses to help you prepare better",
+      title: "Free Learning Materials",
+      desc:
+        "Unlock curated digital resources to boost your exam and job-readiness.",
       link: null,
     },
     {
       icon: <RefreshCcw size={32} />,
-      title: "Resubscribe & Improve",
-      desc: "Unlimited chances to enhance your score",
+      title: "Unlimited Resubmissions",
+      desc:
+        "Keep improving with unlimited attempts to enhance your score and preparation.",
       link: null,
     },
     {
       icon: <CheckSquare size={32} />,
-      title: "Free Practice Tests",
-      desc: "Crack the real test with ease & confidence",
-    //   link: { text: "Take a Sample Test", url: "#" },
+      title: "Practice Test Access",
+      desc:
+        "Sharpen your skills with mock tests modeled on real assessment formats.",
+      // link: { text: "Try a Sample Test", url: "#" },
     },
   ];
 
   return (
     <section className="dest-whatyouget">
-      <h2 className="dest-whatyouget__title">✨ What Do You Get?</h2>
+      <h2 className="dest-whatyouget__title">What You’ll Gain with DEST Academy</h2>
       <div className="dest-whatyouget__grid">
         {benefits.map((item, i) => (
           <div className="dest-whatyouget__card" key={i}>
@@ -47,7 +58,7 @@ export default function WhatYouGet() {
             <p className="dest-whatyouget__desc">{item.desc}</p>
             {item.link && (
               <a href={item.link.url} className="dest-whatyouget__link">
-                {/* {item.link.text} → */}
+                {item.link.text} →
               </a>
             )}
           </div>
