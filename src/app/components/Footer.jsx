@@ -10,24 +10,21 @@ export default function Footer() {
       <div className="footer-top">
         <div className="footer-about">
           <div className="footer-about-title-logo">
-          <h2>DEST Academy </h2>
-             <Image
-                      src="/images/dest_translogo.png"
-                      alt="DEST Logo"
-                      width={80}
-                      height={80}
-                      className="inline-logo"
-                    />
-                    </div>
-          
-          <p>
-            DEST Academy is democratizing education, making it accessible to all. 
-            Join the revolution, learn and grow with us.
-          </p>
-          <div className="footer-apps">
-            <img src="/appstore.png" alt="App Store" />
-            <img src="/playstore.png" alt="Google Play" />
+            <h2>DEST Academy</h2>
+            <Image
+              src="/images/dest_translogo.png"
+              alt="DEST Academy Logo"
+              width={80}
+              height={80}
+              className="inline-logo"
+            />
           </div>
+
+          <p>
+            DEST Academy (Dream Education Skill & Training Pvt. Ltd.) is committed to making education 
+            and skill development accessible to all learners, empowering them for career success through 
+            practical and future-ready programs.
+          </p>
         </div>
 
         <div className="footer-links">
@@ -53,31 +50,32 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4>Popular Goals</h4>
+            <h4>Courses & Exams</h4>
             <ul>
               <li>IIT JEE</li>
-              <li>UPSC</li>
+              <li>MPPSC</li>
               <li>SSC</li>
-              <li>NEET UG</li>
+              <li>ITI</li>
             </ul>
           </div>
 
-          <div>
-            <h4>Study Material</h4>
-            <ul>
-              <li>UPSC Notes</li>
-              <li>NEET Notes</li>
-              <li>CA Foundation</li>
-              <li>SSC Study Material</li>
-            </ul>
-          </div>
+        <div>
+  <h4>Study Materials</h4>
+  <ul>
+    <li>SSC Study Material</li>
+    <li>MPPSC Notes</li>
+    <li>ITI Practical Guides</li>
+    <li>JEE Notes PDFs</li>
+  </ul>
+</div>
+
         </div>
       </div>
 
       <div className="footer-bottom">
         <p>© {new Date().getFullYear()} DEST Academy. All rights reserved.</p>
         <p>
-          <FaPhoneAlt /> Call: +91 8585858585
+          <FaPhoneAlt /> Call: +91 73541 00676
         </p>
       </div>
     </footer>
