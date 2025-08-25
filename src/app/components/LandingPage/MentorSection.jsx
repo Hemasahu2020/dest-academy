@@ -29,13 +29,13 @@ const mentors = [
   {
     name: "Lalita Mam",
     role: "Stenography & IT Mentor",
-    img: "/mentor4.jpg",
+    img: "/images/Lalita.jpeg",
     bio: "12+ years in software development and government exam coaching, specializing in stenography and typing.",
   },
   {
     name: "Deepak Sir",
     role: "Business & Career Coach",
-    img: "/mentor5.jpg",
+    img: "/images/Deepak.png",
     bio: "8 years of business consulting experience focused on career planning, entrepreneurship, and management.",
   },
 ];
