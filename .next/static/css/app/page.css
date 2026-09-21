@@ -1,3 +1,502 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./src/app/styles/LandingPage/aboutus.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.aboutus-section {
+  font-family: "Segoe UI", sans-serif;
+  padding: 4rem 2rem;
+  background: #f9fafb;
+}
+.aboutus-section .Above-Section-About-container {
+  max-width: 90%;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+.aboutus-section .Above-Section-About-container .section-title {
+  text-align: center;
+}
+.aboutus-section .Above-Section-About {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.aboutus-section .aboutus-image {
+  flex: 1 1;
+  max-width: 400px;
+  text-align: center;
+}
+.aboutus-section .aboutus-image .inline-logo {
+  max-width: 100%;
+  height: auto;
+}
+.aboutus-section .About-right-content {
+  flex: 1 1;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+}
+.aboutus-section .About-right-content .section-title {
+  text-align: left;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #1e293b;
+}
+.aboutus-section .About-right-content .aboutus-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2563eb;
+  margin-bottom: 1rem;
+}
+.aboutus-section .About-right-content p {
+  font-size: 1rem;
+  color: #475569;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+.aboutus-section .aboutus-container {
+  max-width: 90%;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+.aboutus-section .aboutus-container .aboutus-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.aboutus-section .aboutus-container .aboutus-card {
+  width: 340px;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: center;
+}
+.aboutus-section .aboutus-container .aboutus-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+.aboutus-section .aboutus-container .aboutus-card .icon {
+  color: #2563eb;
+  margin-bottom: 1rem;
+}
+.aboutus-section .aboutus-container .aboutus-card h4 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+  color: #1e293b;
+}
+.aboutus-section .aboutus-container .aboutus-card p,
+.aboutus-section .aboutus-container .aboutus-card ul {
+  font-size: 1rem;
+  color: #475569;
+  line-height: 1.5;
+}
+.aboutus-section .aboutus-container .aboutus-card ul {
+  text-align: left;
+  margin: 0.8rem 0 0 1.2rem;
+  list-style: disc;
+}
+
+.youtube-section {
+  width: 100%;
+  padding: 3rem clamp(1rem, 4vw, 4rem);
+  box-sizing: border-box;
+  background: #f8fafc;
+}
+
+.youtube-heading {
+  max-width: 1500px;
+  margin: 0 auto 2rem;
+}
+.youtube-heading span {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #64748b;
+}
+.youtube-heading h2 {
+  margin: 0.4rem 0 0;
+  font-size: clamp(1.8rem, 2.8vw, 2.7rem);
+  font-weight: 700;
+  color: #172033;
+}
+.youtube-heading p {
+  margin: 0.5rem 0 0;
+  font-size: 0.95rem;
+  color: #64748b;
+}
+
+.youtube-grid {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-gap: 1.4rem;
+  gap: 1.4rem;
+}
+
+.youtube-card {
+  overflow: hidden;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 1.2rem;
+  box-shadow: 0 5px 18px rgba(15, 23, 42, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.youtube-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.12);
+}
+
+.youtube-video-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+  background: #111827;
+}
+.youtube-video-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: 0;
+}
+
+.youtube-card-content {
+  padding: 1rem;
+}
+.youtube-card-content h3 {
+  margin: 0 0 0.7rem;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #172033;
+}
+.youtube-card-content a {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #dc2626;
+  text-decoration: none;
+}
+.youtube-card-content a:hover {
+  text-decoration: underline;
+}
+
+.youtube-channel-button {
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 2rem auto 0;
+  padding: 0.85rem 1.4rem;
+  border-radius: 999px;
+  background: #dc2626;
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.25s ease, transform 0.25s ease;
+}
+.youtube-channel-button:hover {
+  background: #b91c1c;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 1000px) {
+  .youtube-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 576px) {
+  .youtube-section {
+    padding: 2.2rem 1rem;
+  }
+  .youtube-heading {
+    margin-bottom: 1.3rem;
+  }
+  .youtube-heading h2 {
+    font-size: 1.7rem;
+  }
+  .youtube-heading p {
+    font-size: 0.82rem;
+  }
+  .youtube-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .youtube-card-content {
+    padding: 0.9rem;
+  }
+  .youtube-card-content h3 {
+    font-size: 0.92rem;
+  }
+  .youtube-channel-button {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./src/app/styles/LandingPage/browse.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.browse-section {
+  width: 100%;
+  background: #f1f1f1;
+  padding: 2.5rem clamp(1rem, 4vw, 4rem);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.browse-header {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto 1.5rem;
+}
+.browse-header h2 {
+  margin: 0;
+  font-size: clamp(1.8rem, 2.5vw, 2.8rem);
+  font-weight: 600;
+  color: #111827;
+}
+
+.browse-grid {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+  grid-gap: 1.2rem;
+  gap: 1.2rem;
+  align-items: stretch;
+}
+
+.browse-card {
+  min-width: 0;
+  width: 100%;
+  height: 80px;
+  box-sizing: border-box;
+  padding: 0.9rem 1rem;
+  background: #ffffff;
+  border-radius: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-decoration: none;
+  color: #111827;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  overflow: hidden;
+}
+.browse-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+.browse-card .browse-icon {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  font-size: 1.35rem;
+  color: #3020dc;
+}
+.browse-card h3 {
+  width: 100%;
+  margin: 0;
+  font-size: clamp(0.85rem, 1.1vw, 1.05rem);
+  font-weight: 500;
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (min-width: 1600px) {
+  .browse-grid {
+    grid-template-columns: repeat(7, 1fr);
+  }
+}
+@media (max-width: 900px) {
+  .browse-section {
+    padding: 2rem 1.5rem;
+  }
+  .browse-grid {
+    grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+    gap: 1rem;
+  }
+}
+@media (max-width: 576px) {
+  .browse-section {
+    padding: 1.8rem 1rem;
+  }
+  .browse-header {
+    margin-bottom: 1.2rem;
+  }
+  .browse-header h2 {
+    font-size: 1.8rem;
+  }
+  .browse-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+  }
+  .browse-card {
+    height: 80px;
+    padding: 0.8rem;
+    border-radius: 1rem;
+  }
+  .browse-card .browse-icon {
+    font-size: 1.2rem;
+  }
+  .browse-card h3 {
+    font-size: 0.82rem;
+  }
+}
+@media (max-width: 360px) {
+  .browse-grid {
+    gap: 0.6rem;
+  }
+  .browse-card {
+    padding: 0.65rem;
+  }
+  .browse-card h3 {
+    font-size: 0.75rem;
+  }
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./src/app/styles/LandingPage/carousel.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.hero-carousel {
+  position: relative;
+  width: 100%;
+  max-width: 1800px;
+  margin: 2rem auto 0;
+  padding: 0 0;
+}
+
+.landing-swiper {
+  width: 100%;
+  overflow: visible;
+  padding: 0 0 1rem;
+}
+
+.swiper-slide {
+  height: auto;
+  transition: transform 0.7s ease, opacity 0.7s ease;
+  opacity: 0.9;
+}
+
+.swiper-slide-active {
+  opacity: 1;
+  z-index: 2;
+}
+
+.carousel-card {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+  border-radius: 2rem;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.04);
+}
+.carousel-card img {
+  object-fit: cover;
+  transition: transform 0.7s ease;
+}
+
+.swiper-slide-active .carousel-card {
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.06);
+}
+
+.carousel-prev,
+.carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 52px;
+  height: 52px;
+  border: none;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #2420c9;
+  font-size: 1.6rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12);
+  transition: all 0.3s ease;
+}
+.carousel-prev:hover,
+.carousel-next:hover {
+  background: #2420c9;
+  color: #ffffff;
+  transform: translateY(-50%) scale(1.08);
+}
+
+.carousel-prev {
+  left: 1.5rem;
+}
+
+.carousel-next {
+  right: 1.5rem;
+}
+
+.content {
+  max-width: 1100px;
+  margin: auto;
+  padding: 3rem 1rem;
+}
+.content .section-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  grid-gap: 2rem;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  background: #f9fafb;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+.content .section-grid img {
+  max-width: 100%;
+  border-radius: 1rem;
+}
+.content .section-grid h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.8rem;
+  color: #2563eb;
+  margin-bottom: 1rem;
+}
+.content .section-grid p,
+.content .section-grid ul {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+.content .section-grid ul {
+  list-style: disc;
+  margin-left: 1.2rem;
+}
+.content .section-grid.reverse {
+  grid-template-columns: 1fr 1fr;
+  direction: rtl;
+}
+.content .section-grid.reverse div {
+  direction: ltr;
+}
 /*!****************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./node_modules/swiper/swiper.css ***!
   \****************************************************************************************************************************************************************************************************************************************************************************/
@@ -233,195 +732,6 @@
 /* Slide styles end */
 
 /*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./node_modules/swiper/modules/pagination.css ***!
-  \****************************************************************************************************************************************************************************************************************************************************************************************/
-:root {
-  /*
-  --swiper-pagination-color: var(--swiper-theme-color);
-  --swiper-pagination-left: auto;
-  --swiper-pagination-right: 8px;
-  --swiper-pagination-bottom: 8px;
-  --swiper-pagination-top: auto;
-  --swiper-pagination-fraction-color: inherit;
-  --swiper-pagination-progressbar-bg-color: rgba(0,0,0,0.25);
-  --swiper-pagination-progressbar-size: 4px;
-  --swiper-pagination-bullet-size: 8px;
-  --swiper-pagination-bullet-width: 8px;
-  --swiper-pagination-bullet-height: 8px;
-  --swiper-pagination-bullet-border-radius: 50%;
-  --swiper-pagination-bullet-inactive-color: #000;
-  --swiper-pagination-bullet-inactive-opacity: 0.2;
-  --swiper-pagination-bullet-opacity: 1;
-  --swiper-pagination-bullet-horizontal-gap: 4px;
-  --swiper-pagination-bullet-vertical-gap: 6px;
-  */
-}
-.swiper-pagination {
-  position: absolute;
-  text-align: center;
-  transition: 300ms opacity;
-  transform: translate3d(0, 0, 0);
-  z-index: 10;
-}
-.swiper-pagination.swiper-pagination-hidden {
-  opacity: 0;
-}
-.swiper-pagination-disabled > .swiper-pagination,
-.swiper-pagination.swiper-pagination-disabled {
-  display: none !important;
-}
-/* Common Styles */
-.swiper-pagination-fraction,
-.swiper-pagination-custom,
-.swiper-horizontal > .swiper-pagination-bullets,
-.swiper-pagination-bullets.swiper-pagination-horizontal {
-  bottom: var(--swiper-pagination-bottom, 8px);
-  top: var(--swiper-pagination-top, auto);
-  left: 0;
-  width: 100%;
-}
-/* Bullets */
-.swiper-pagination-bullets-dynamic {
-  overflow: hidden;
-  font-size: 0;
-}
-.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
-  transform: scale(0.33);
-  position: relative;
-}
-.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active {
-  transform: scale(1);
-}
-.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-main {
-  transform: scale(1);
-}
-.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev {
-  transform: scale(0.66);
-}
-.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev {
-  transform: scale(0.33);
-}
-.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next {
-  transform: scale(0.66);
-}
-.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next {
-  transform: scale(0.33);
-}
-.swiper-pagination-bullet {
-  width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 8px));
-  height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 8px));
-  display: inline-block;
-  border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
-  background: var(--swiper-pagination-bullet-inactive-color, #000);
-  opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.2);
-}
-button.swiper-pagination-bullet {
-  border: none;
-  margin: 0;
-  padding: 0;
-  box-shadow: none;
-  -webkit-appearance: none;
-          -moz-appearance: none;
-       appearance: none;
-}
-.swiper-pagination-clickable .swiper-pagination-bullet {
-  cursor: pointer;
-}
-.swiper-pagination-bullet:only-child {
-  display: none !important;
-}
-.swiper-pagination-bullet-active {
-  opacity: var(--swiper-pagination-bullet-opacity, 1);
-  background: var(--swiper-pagination-color, var(--swiper-theme-color));
-}
-.swiper-vertical > .swiper-pagination-bullets,
-.swiper-pagination-vertical.swiper-pagination-bullets {
-  right: var(--swiper-pagination-right, 8px);
-  left: var(--swiper-pagination-left, auto);
-  top: 50%;
-  transform: translate3d(0px, -50%, 0);
-}
-.swiper-vertical > .swiper-pagination-bullets .swiper-pagination-bullet,
-.swiper-pagination-vertical.swiper-pagination-bullets .swiper-pagination-bullet {
-  margin: var(--swiper-pagination-bullet-vertical-gap, 6px) 0;
-  display: block;
-}
-.swiper-vertical > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
-.swiper-pagination-vertical.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
-  top: 50%;
-  transform: translateY(-50%);
-  width: 8px;
-}
-.swiper-vertical > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet,
-.swiper-pagination-vertical.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
-  display: inline-block;
-  transition: 200ms transform,
-        200ms top;
-}
-.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
-.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-  margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 4px);
-}
-.swiper-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
-.swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
-  left: 50%;
-  transform: translateX(-50%);
-  white-space: nowrap;
-}
-.swiper-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet,
-.swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
-  transition: 200ms transform,
-        200ms left;
-}
-.swiper-horizontal.swiper-rtl > .swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
-  transition: 200ms transform,
-    200ms right;
-}
-/* Fraction */
-.swiper-pagination-fraction {
-  color: var(--swiper-pagination-fraction-color, inherit);
-}
-/* Progress */
-.swiper-pagination-progressbar {
-  background: var(--swiper-pagination-progressbar-bg-color, rgba(0, 0, 0, 0.25));
-  position: absolute;
-}
-.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
-  background: var(--swiper-pagination-color, var(--swiper-theme-color));
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  transform: scale(0);
-  transform-origin: left top;
-}
-.swiper-rtl .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
-  transform-origin: right top;
-}
-.swiper-horizontal > .swiper-pagination-progressbar,
-.swiper-pagination-progressbar.swiper-pagination-horizontal,
-.swiper-vertical > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite,
-.swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite {
-  width: 100%;
-  height: var(--swiper-pagination-progressbar-size, 4px);
-  left: 0;
-  top: 0;
-}
-.swiper-vertical > .swiper-pagination-progressbar,
-.swiper-pagination-progressbar.swiper-pagination-vertical,
-.swiper-horizontal > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite,
-.swiper-pagination-progressbar.swiper-pagination-horizontal.swiper-pagination-progressbar-opposite {
-  width: var(--swiper-pagination-progressbar-size, 4px);
-  height: 100%;
-  left: 0;
-  top: 0;
-}
-.swiper-pagination-lock {
-  display: none;
-}
-
-/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./node_modules/swiper/modules/navigation.css ***!
   \****************************************************************************************************************************************************************************************************************************************************************************************/
 :root {
@@ -512,341 +822,379 @@ button.swiper-pagination-bullet {
 }
 /* Navigation font end */
 
-/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./src/app/styles/LandingPage/mentorsection.scss ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-.mentor-section {
-  padding: 3rem 1rem;
-  background: #f9fafb;
-  text-align: center;
-}
-.mentor-section__title {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #1f2937;
-  margin-bottom: 0.5rem;
-}
-.mentor-section__subtitle {
-  font-size: 1rem;
-  color: #6b7280;
-  margin-bottom: 2rem;
-}
-.mentor-section__carousel {
-  max-width: 1200px;
-  margin: 0 auto;
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./src/app/styles/LandingPage/quicklinks.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.quick-links-section {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2rem clamp(1rem, 4vw, 4rem);
+  background: #ffffff;
 }
 
-.mentor-card {
-  background: #fff;
-  border-radius: 1rem;
-  padding: 1.5rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-  transition: all 0.3s ease;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100%;
+.quick-links-header {
+  max-width: 1500px;
+  margin: 0 auto 1.5rem;
 }
-.mentor-card:hover {
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
-}
-.mentor-card__img {
-  width: 110px;
-  height: 110px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 4px solid #e0e7ff;
-  margin-bottom: 1rem;
-}
-.mentor-card__name {
-  font-size: 1.25rem;
+.quick-links-header h2 {
+  margin: 0;
+  font-size: clamp(1.8rem, 2.5vw, 2.8rem);
   font-weight: 600;
   color: #111827;
-  margin-top: 0.5rem;
-}
-.mentor-card__role {
-  color: #4f46e5;
-  font-weight: 500;
-  margin-top: 0.25rem;
-}
-.mentor-card__bio {
-  font-size: 0.9rem;
-  color: #6b7280;
-  margin: 0.75rem 0;
-}
-.mentor-card__btn {
-  padding: 0.5rem 1.25rem;
-  background: #4f46e5;
-  color: #fff;
-  border: none;
-  border-radius: 0.75rem;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-.mentor-card__btn:hover {
-  background: #3730a3;
 }
 
-/* Swiper Customization */
-.swiper-button-next,
-.swiper-button-prev {
-  color: #4f46e5;
-  transition: all 0.3s ease;
-}
-.swiper-button-next:hover,
-.swiper-button-prev:hover {
-  color: #1e3a8a;
-}
-
-.swiper-pagination-bullet {
-  background: #a5b4fc;
-  opacity: 1;
-}
-
-.swiper-pagination-bullet-active {
-  background: #4f46e5;
-}
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./src/app/styles/LandingPage/whatyouget.scss ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-@charset "UTF-8";
-.dest-whatyouget {
-  font-family: "Segoe UI", sans-serif;
-  padding: 0 2rem;
-  background: #f8fafc;
-  text-align: center;
-  /* Default: Grid layout (desktop + tablet) */
-  /* 📱 Mobile responsive: switch to horizontal scroll */
-}
-.dest-whatyouget__title {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #1e293b;
-  margin-bottom: 3rem;
-}
-.dest-whatyouget__grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  grid-gap: 2rem;
-  gap: 2rem;
-  max-width: 1360px;
-  margin: auto;
-}
-.dest-whatyouget__card {
-  background: #fff;
-  padding: 2rem 0.5rem;
-  border-radius: 1.2rem;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  text-align: left;
-  flex: 0 0 80%; /* For mobile carousel (width ~80% of screen) */
-}
-.dest-whatyouget__card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
-}
-.dest-whatyouget__icon {
-  color: #2563eb;
-  margin-bottom: 1rem;
-}
-.dest-whatyouget__heading {
-  font-size: 1.4rem;
-  font-weight: bold;
-  color: #1e293b;
-  margin-bottom: 0.6rem;
-}
-.dest-whatyouget__desc {
-  font-size: 1rem;
-  color: #475569;
-  margin-bottom: 1rem;
-  line-height: 1.5;
-}
-@media (max-width: 768px) {
-  .dest-whatyouget__grid {
-    display: flex;
-    overflow-x: auto;
-    gap: 1rem;
-    padding-bottom: 1rem;
-    /* Smooth scroll */
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
-  }
-  .dest-whatyouget__card {
-    flex: 0 0 80%; /* card takes ~80% of width */
-    scroll-snap-align: start;
-  }
-}
-/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./src/app/styles/LandingPage/aboutus.scss ***!
-  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-.aboutus-section {
-  font-family: "Segoe UI", sans-serif;
-  padding: 4rem 2rem;
-  background: #f9fafb;
-}
-.aboutus-section .Above-Section-About-container {
-  max-width: 90%;
+.quick-links-grid {
+  width: 100%;
+  max-width: 1500px;
   margin: 0 auto;
-  background: #ffffff;
-  border-radius: 1rem;
-  padding: 1rem;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-gap: 1.2rem;
+  gap: 1.2rem;
 }
-.aboutus-section .Above-Section-About-container .section-title {
-  text-align: center;
-}
-.aboutus-section .Above-Section-About {
+
+.quick-link-card {
+  min-width: 0;
+  min-height: 105px;
+  padding: 1.2rem;
+  box-sizing: border-box;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  text-decoration: none;
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 1.2rem;
+  color: #111827;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+.quick-link-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  border-color: #d1d5db;
+}
+
+.quick-link-card.contact .quick-link-icon {
+  color: #0f766e;
+}
+
+.quick-link-icon {
+  width: 52px;
+  height: 52px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  gap: 2rem;
-  margin-top: 2rem;
+  border-radius: 14px;
+  font-size: 1.8rem;
+  background: #ffffff;
 }
-.aboutus-section .aboutus-image {
+
+.quick-link-content {
+  min-width: 0;
   flex: 1 1;
-  max-width: 400px;
-  text-align: center;
 }
-.aboutus-section .aboutus-image .inline-logo {
-  max-width: 100%;
-  height: auto;
+.quick-link-content h3 {
+  margin: 0 0 0.35rem;
+  font-size: clamp(0.9rem, 1.1vw, 1.15rem);
+  font-weight: 600;
+  line-height: 1.3;
 }
-.aboutus-section .About-right-content {
-  flex: 1 1;
-  max-width: 600px;
+.quick-link-content p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #64748b;
+  line-height: 1.4;
+}
+
+.quick-link-arrow {
+  flex-shrink: 0;
+  font-size: 1.3rem;
+  color: #64748b;
+  transition: transform 0.25s ease;
+}
+
+.quick-link-card:hover .quick-link-arrow {
+  transform: translateX(4px);
+}
+
+.quick-link-card.whatsapp .quick-link-icon {
+  color: #25d366;
+}
+
+.quick-link-card.youtube .quick-link-icon {
+  color: #ff0000;
+}
+
+.quick-link-card.instagram .quick-link-icon {
+  color: #e1306c;
+}
+
+.quick-link-card.facebook .quick-link-icon {
+  color: #1877f2;
+}
+
+@media (max-width: 1100px) {
+  .quick-links-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 576px) {
+  .quick-links-section {
+    padding: 1.8rem 1rem;
+  }
+  .quick-links-header {
+    margin-bottom: 1.2rem;
+  }
+  .quick-links-header h2 {
+    font-size: 1.8rem;
+  }
+  .quick-links-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+  }
+  .quick-link-card {
+    min-height: 105px;
+    padding: 0.85rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.65rem;
+    border-radius: 1rem;
+  }
+  .quick-link-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    font-size: 1.35rem;
+  }
+  .quick-link-content h3 {
+    font-size: 0.85rem;
+  }
+  .quick-link-content p {
+    font-size: 0.7rem;
+  }
+  .quick-link-arrow {
+    display: none;
+  }
+}
+@media (max-width: 360px) {
+  .quick-links-grid {
+    gap: 0.6rem;
+  }
+  .quick-link-card {
+    padding: 0.7rem;
+  }
+  .quick-link-content h3 {
+    font-size: 0.78rem;
+  }
+  .quick-link-content p {
+    font-size: 0.65rem;
+  }
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./src/app/styles/LandingPage/trade.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.trade-section {
+  width: 100%;
+  padding: 3rem clamp(1rem, 4vw, 4rem);
+  box-sizing: border-box;
+  background: #f8fafc;
+}
+
+.trade-header {
+  max-width: 1500px;
+  margin: 0 auto 2rem;
+}
+.trade-header .trade-label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #64748b;
+}
+.trade-header h2 {
+  margin: 0;
+  font-size: clamp(1.8rem, 2.8vw, 2.8rem);
+  font-weight: 700;
+  color: #172033;
+}
+
+.trade-grid {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-gap: 1.3rem;
+  gap: 1.3rem;
+}
+
+.trade-card {
+  position: relative;
+  min-height: 150px;
+  padding: 1.4rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 2rem;
-}
-.aboutus-section .About-right-content .section-title {
-  text-align: left;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  color: #1e293b;
-}
-.aboutus-section .About-right-content .aboutus-heading {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #2563eb;
-  margin-bottom: 1rem;
-}
-.aboutus-section .About-right-content p {
-  font-size: 1rem;
-  color: #475569;
-  margin-bottom: 1rem;
-  line-height: 1.6;
-}
-.aboutus-section .aboutus-container {
-  max-width: 90%;
-  margin: 3rem auto;
-  padding: 0 1rem;
-}
-.aboutus-section .aboutus-container .aboutus-grid {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 3rem;
-}
-.aboutus-section .aboutus-container .aboutus-card {
-  width: 340px;
+  justify-content: space-between;
+  align-items: flex-start;
+  overflow: hidden;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 1.3rem;
   background: #ffffff;
-  padding: 2rem;
-  border-radius: 1rem;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  text-align: center;
+  box-sizing: border-box;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
-.aboutus-section .aboutus-container .aboutus-card:hover {
+.trade-card::after {
+  content: "";
+  position: absolute;
+  right: -35px;
+  top: -35px;
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+  background: currentColor;
+  opacity: 0.06;
+  transition: transform 0.3s ease;
+}
+.trade-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.1);
+  border-color: currentColor;
 }
-.aboutus-section .aboutus-container .aboutus-card .icon {
+.trade-card:hover::after {
+  transform: scale(1.4);
+}
+
+.trade-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  font-size: 1.6rem;
+  background: currentColor;
+}
+.trade-icon svg {
+  color: #ffffff;
+}
+
+.trade-content {
+  position: relative;
+  z-index: 1;
+  margin-top: 1.2rem;
+}
+.trade-content h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #172033;
+}
+.trade-content p {
+  margin: 0.35rem 0 0;
+  font-size: 0.78rem;
+  color: #64748b;
+}
+
+.trade-card.fitter {
   color: #2563eb;
-  margin-bottom: 1rem;
+  background: linear-gradient(145deg, #eff6ff, #ffffff);
 }
-.aboutus-section .aboutus-container .aboutus-card h4 {
-  font-size: 1.4rem;
-  font-weight: bold;
-  margin-bottom: 0.8rem;
-  color: #1e293b;
+
+.trade-card.welder {
+  color: #ea580c;
+  background: linear-gradient(145deg, #fff7ed, #ffffff);
 }
-.aboutus-section .aboutus-container .aboutus-card p,
-.aboutus-section .aboutus-container .aboutus-card ul {
-  font-size: 1rem;
-  color: #475569;
-  line-height: 1.5;
+
+.trade-card.turner {
+  color: #7c3aed;
+  background: linear-gradient(145deg, #f5f3ff, #ffffff);
 }
-.aboutus-section .aboutus-container .aboutus-card ul {
-  text-align: left;
-  margin: 0.8rem 0 0 1.2rem;
-  list-style: disc;
+
+.trade-card.machinist {
+  color: #0891b2;
+  background: linear-gradient(145deg, #ecfeff, #ffffff);
 }
-/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[11].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[11].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[11].use[5]!./src/app/styles/LandingPage/whydest.scss ***!
-  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-@charset "UTF-8";
-.Why-Dest-Section-Container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  background: #ffffff;
-  border-radius: 1rem;
-  padding: 4rem 0;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
-  max-width: 90%;
-  margin: 0 auto;
-  /* 📱 Mobile Responsive */
+
+.trade-card.stenographer {
+  color: #db2777;
+  background: linear-gradient(145deg, #fdf2f8, #ffffff);
 }
-.Why-Dest-Section-Container .why-dest-image {
-  flex: 1 1;
-  max-width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.trade-card.copa {
+  color: #16a34a;
+  background: linear-gradient(145deg, #f0fdf4, #ffffff);
 }
-.Why-Dest-Section-Container .why-dest-image img {
-  width: 28rem;
-  height: auto;
+
+.trade-card.electrician {
+  color: #ca8a04;
+  background: linear-gradient(145deg, #fefce8, #ffffff);
 }
-.Why-Dest-Section-Container div {
-  flex: 1 1;
-  max-width: 50%;
-}
-.Why-Dest-Section-Container div h2 {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #1e293b;
-  margin-bottom: 1rem;
-}
-.Why-Dest-Section-Container div ul {
-  list-style: disc;
-  padding-left: 1.5rem;
-  color: #475569;
-  font-size: 1rem;
-  line-height: 1.6;
-}
-.Why-Dest-Section-Container div ul li {
-  margin-bottom: 0.6rem;
-}
-@media (max-width: 768px) {
-  .Why-Dest-Section-Container {
-    flex-direction: column;
-    text-align: center;
+
+@media (max-width: 1100px) {
+  .trade-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
-  .Why-Dest-Section-Container .why-dest-image,
-  .Why-Dest-Section-Container div {
-    max-width: 100%;
+}
+@media (max-width: 576px) {
+  .trade-section {
+    padding: 2.2rem 1rem;
   }
-  .Why-Dest-Section-Container ul {
-    list-style: none;
-    padding: 0;
+  .trade-header {
+    margin-bottom: 1.4rem;
   }
-  .Why-Dest-Section-Container ul li::before {
-    content: "✔️ ";
-    color: #2563eb;
+  .trade-header .trade-label {
+    font-size: 0.65rem;
+    letter-spacing: 1.5px;
+  }
+  .trade-header h2 {
+    font-size: 1.8rem;
+  }
+  .trade-header p {
+    font-size: 0.82rem;
+  }
+  .trade-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.8rem;
+  }
+  .trade-card {
+    min-height: 135px;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  .trade-icon {
+    width: 38px;
+    height: 38px;
+    border-radius: 11px;
+    font-size: 1.25rem;
+  }
+  .trade-content {
+    margin-top: 0.8rem;
+  }
+  .trade-content h3 {
+    font-size: 0.9rem;
+  }
+  .trade-content p {
+    font-size: 0.68rem;
+  }
+}
+@media (max-width: 360px) {
+  .trade-grid {
+    gap: 0.6rem;
+  }
+  .trade-card {
+    min-height: 125px;
+    padding: 0.8rem;
+  }
+  .trade-content h3 {
+    font-size: 0.82rem;
+  }
+  .trade-content p {
+    font-size: 0.62rem;
   }
 }
 /*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
@@ -855,89 +1203,4 @@ button.swiper-pagination-bullet {
 .landing {
   font-family: "Segoe UI", sans-serif;
   color: #1e293b;
-}
-.landing .hero {
-  position: relative;
-  height: 100vh;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 3rem;
-}
-.landing .hero .background-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 0;
-  filter: brightness(0.5);
-}
-.landing .hero h1, .landing .hero p, .landing .hero .inline-logo {
-  position: relative;
-  z-index: 1;
-  color: #ffffff;
-  text-shadow: 20px 20px 60px rgba(0, 0, 0, 0.7);
-}
-.landing .hero h1 {
-  font-size: 5rem;
-  font-weight: 800;
-  margin-bottom: 1rem;
-}
-.landing .hero p {
-  font-size: 1.8rem;
-  margin-top: -0.5rem;
-}
-.landing .hero .inline-logo {
-  width: 9.5rem;
-  height: 9.5rem;
-}
-.landing .content {
-  max-width: 1100px;
-  margin: auto;
-  padding: 3rem 1rem;
-}
-.landing .content .section-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  grid-gap: 2rem;
-  gap: 2rem;
-  margin-bottom: 3rem;
-  padding: 2rem;
-  border-radius: 1rem;
-  background: #f9fafb;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-}
-.landing .content .section-grid img {
-  max-width: 100%;
-  border-radius: 1rem;
-}
-.landing .content .section-grid h2 {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 1.8rem;
-  color: #2563eb;
-  margin-bottom: 1rem;
-}
-.landing .content .section-grid p,
-.landing .content .section-grid ul {
-  font-size: 1.1rem;
-  line-height: 1.6;
-}
-.landing .content .section-grid ul {
-  list-style: disc;
-  margin-left: 1.2rem;
-}
-.landing .content .section-grid.reverse {
-  grid-template-columns: 1fr 1fr;
-  direction: rtl;
-}
-.landing .content .section-grid.reverse div {
-  direction: ltr;
 }
