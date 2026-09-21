@@ -1,0 +1,278 @@
+// =========================================
+// QUICK LINKS SECTION
+// =========================================
+
+.quick-links-section {
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 2rem clamp(1rem, 4vw, 4rem);
+
+  background: #ffffff;
+}
+
+// =========================================
+// HEADER
+// =========================================
+
+.quick-links-header {
+  max-width: 1500px;
+  margin: 0 auto 1.5rem;
+
+  h2 {
+    margin: 0;
+
+    font-size: clamp(1.8rem, 2.5vw, 2.8rem);
+    font-weight: 600;
+
+    color: #111827;
+  }
+}
+
+// =========================================
+// GRID
+// =========================================
+
+.quick-links-grid {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+
+  gap: 1.2rem;
+}
+
+// =========================================
+// CARD
+// =========================================
+
+.quick-link-card {
+  min-width: 0;
+  min-height: 105px;
+
+  padding: 1.2rem;
+
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  position: relative;
+
+  text-decoration: none;
+
+  background: #f8fafc;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 1.2rem;
+
+  color: #111827;
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+
+    border-color: #d1d5db;
+  }
+}
+.quick-link-card.contact {
+  .quick-link-icon {
+    color: #0f766e;
+  }
+}
+
+// =========================================
+// ICON
+// =========================================
+
+.quick-link-icon {
+  width: 52px;
+  height: 52px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 14px;
+
+  font-size: 1.8rem;
+
+  background: #ffffff;
+}
+
+// =========================================
+// CONTENT
+// =========================================
+
+.quick-link-content {
+  min-width: 0;
+  flex: 1;
+
+  h3 {
+    margin: 0 0 0.35rem;
+
+    font-size: clamp(0.9rem, 1.1vw, 1.15rem);
+    font-weight: 600;
+
+    line-height: 1.3;
+  }
+
+  p {
+    margin: 0;
+
+    font-size: 0.8rem;
+    color: #64748b;
+
+    line-height: 1.4;
+  }
+}
+
+// =========================================
+// ARROW
+// =========================================
+
+.quick-link-arrow {
+  flex-shrink: 0;
+
+  font-size: 1.3rem;
+  color: #64748b;
+
+  transition: transform 0.25s ease;
+}
+
+.quick-link-card:hover .quick-link-arrow {
+  transform: translateX(4px);
+}
+
+// =========================================
+// BRAND COLORS
+// =========================================
+
+.quick-link-card.whatsapp {
+  .quick-link-icon {
+    color: #25d366;
+  }
+}
+
+.quick-link-card.youtube {
+  .quick-link-icon {
+    color: #ff0000;
+  }
+}
+
+.quick-link-card.instagram {
+  .quick-link-icon {
+    color: #e1306c;
+  }
+}
+
+.quick-link-card.facebook {
+  .quick-link-icon {
+    color: #1877f2;
+  }
+}
+
+// =========================================
+// TABLET
+// =========================================
+
+@media (max-width: 1100px) {
+  .quick-links-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+// =========================================
+// MOBILE
+// =========================================
+
+@media (max-width: 576px) {
+  .quick-links-section {
+    padding: 1.8rem 1rem;
+  }
+
+  .quick-links-header {
+    margin-bottom: 1.2rem;
+
+    h2 {
+      font-size: 1.8rem;
+    }
+  }
+
+  .quick-links-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+  }
+
+  .quick-link-card {
+    min-height: 105px;
+
+    padding: 0.85rem;
+
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.65rem;
+
+    border-radius: 1rem;
+  }
+
+  .quick-link-icon {
+    width: 36px;
+    height: 36px;
+
+    border-radius: 10px;
+
+    font-size: 1.35rem;
+  }
+
+  .quick-link-content {
+    h3 {
+      font-size: 0.85rem;
+    }
+
+    p {
+      font-size: 0.7rem;
+    }
+  }
+
+  .quick-link-arrow {
+    display: none;
+  }
+}
+
+// =========================================
+// VERY SMALL DEVICES
+// =========================================
+
+@media (max-width: 360px) {
+  .quick-links-grid {
+    gap: 0.6rem;
+  }
+
+  .quick-link-card {
+    padding: 0.7rem;
+  }
+
+  .quick-link-content {
+    h3 {
+      font-size: 0.78rem;
+    }
+
+    p {
+      font-size: 0.65rem;
+    }
+  }
+}

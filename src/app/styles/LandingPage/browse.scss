@@ -1,0 +1,202 @@
+// =========================================
+// BROWSE SECTION
+// =========================================
+
+.browse-section {
+  width: 100%;
+  background: #f1f1f1;
+
+  padding: 2.5rem clamp(1rem, 4vw, 4rem);
+
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+// =========================================
+// HEADER
+// =========================================
+
+.browse-header {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto 1.5rem;
+
+  h2 {
+    margin: 0;
+
+    font-size: clamp(1.8rem, 2.5vw, 2.8rem);
+    font-weight: 600;
+    color: #111827;
+  }
+}
+
+// =========================================
+// RESPONSIVE GRID
+// =========================================
+
+.browse-grid {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(175px, 1fr)
+  );
+
+  gap: 1.2rem;
+
+  align-items: stretch;
+}
+
+// =========================================
+// CARD
+// =========================================
+
+.browse-card {
+  min-width: 0;
+  width: 100%;
+  height: 80px;
+
+  box-sizing: border-box;
+
+  padding: 0.9rem 1rem;
+
+  background: #ffffff;
+  border-radius: 1.25rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  text-decoration: none;
+  color: #111827;
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+
+  overflow: hidden;
+
+  &:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+      0 8px 20px rgba(0, 0, 0, 0.08);
+  }
+
+  .browse-icon {
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 1.35rem;
+    color: #3020dc;
+  }
+
+  h3 {
+    width: 100%;
+
+    margin: 0;
+
+    font-size: clamp(0.85rem, 1.1vw, 1.05rem);
+    font-weight: 500;
+
+    line-height: 1.2;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+// =========================================
+// LARGE DESKTOP
+// =========================================
+
+@media (min-width: 1600px) {
+  .browse-grid {
+    grid-template-columns: repeat(7, 1fr);
+  }
+}
+
+// =========================================
+// TABLET
+// =========================================
+
+@media (max-width: 900px) {
+  .browse-section {
+    padding: 2rem 1.5rem;
+  }
+
+  .browse-grid {
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(175px, 1fr)
+    );
+
+    gap: 1rem;
+  }
+}
+
+// =========================================
+// MOBILE
+// =========================================
+
+@media (max-width: 576px) {
+  .browse-section {
+    padding: 1.8rem 1rem;
+  }
+
+  .browse-header {
+    margin-bottom: 1.2rem;
+
+    h2 {
+      font-size: 1.8rem;
+    }
+  }
+
+  .browse-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 0.75rem;
+  }
+
+  .browse-card {
+    height: 80px;
+
+    padding: 0.8rem;
+
+    border-radius: 1rem;
+
+    .browse-icon {
+      font-size: 1.2rem;
+    }
+
+    h3 {
+      font-size: 0.82rem;
+    }
+  }
+}
+
+// =========================================
+// VERY SMALL DEVICES
+// =========================================
+
+@media (max-width: 360px) {
+  .browse-grid {
+    gap: 0.6rem;
+  }
+
+  .browse-card {
+    padding: 0.65rem;
+
+    h3 {
+      font-size: 0.75rem;
+    }
+  }
+}
